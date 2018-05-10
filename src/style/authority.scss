@@ -1,0 +1,61 @@
+.authority{
+    position: relative;
+    min-height: 85vh;
+        .role{
+            min-width:1080px;
+            display:inline-block;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            .left{
+                width:150px;
+                top:24px;
+                position:absolute;
+                left:0px;
+                text-align:left;
+                font-size: 14px;
+            }
+            
+            .middle{
+                position:absolute;
+                left:200px;
+                top:0px;
+            }
+            .search{
+                position:absolute;
+                left:410px;
+                top:0px;
+            }
+            .right{
+                position:absolute;
+                top:5px;
+                text-align:left;
+                font-size: 14px;
+            }
+            .el-tree{
+                min-width: 200px;
+                position: absolute;
+                top:59px;
+                left:0px;
+                height: 698px;
+                .el-tree-node__content{
+                    height:50px;
+                }
+            }
+            .el-table.el-table--fit{
+                position: absolute;
+                top:78px;
+                left:200px;
+                font-size: 14px;
+                .table{
+                    
+                }
+                
+                
+            }
+    }
+
+}
+    

@@ -1,0 +1,19 @@
+.habit-box{
+	
+	position: relative;
+	padding-top: 100px;
+	min-height: 500px;
+	.button-box{
+		position: absolute;
+		left: 19px;
+		top: 20px;
+		
+	}
+	.form-box{
+		padding-top: 20px;
+		padding-right: 10px;
+		width: 450px;
+		.el-form{
+		}
+	}
+}

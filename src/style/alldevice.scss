@@ -1,0 +1,214 @@
+.all{
+  padding: 2% 4%;
+  text-align:left;
+  
+  .text{
+    height:40px;
+    line-height:40px;
+  }
+  .pop{
+    width:100%;
+    height:100vh;
+    position:fixed;
+    top:0px;
+    left:0px;
+    z-index:1000;
+    background:rgba(0,0,0,0.4);
+    overflow-y:hidden;
+    .box{
+      width:50%;
+      background:#fff;
+      border-radius:5px;
+      max-height:400px;
+      overflow:auto;
+      margin:10% auto;
+    }
+  }
+  .deviceData{
+    width:68%;
+    margin-top:1%;
+    float:left;
+    .control{
+      width:76%;
+      min-width:650px;
+      background: #fff;
+      height:240px;
+      display:inline-block;
+      border:1px solid #eee;
+      padding:5px;
+      .el-table{
+        overflow-y: auto;
+      }
+      .headtable{
+        background:#eee;
+      }
+    }
+    .statebox{
+      width:185px;
+      height:300px;
+      background: #fff;
+      float:left;
+      padding-top:5px;
+      .state{
+        width:100px;
+        height:100px;
+        line-height:80px;
+        border-radius:50px;
+        text-align:center;
+        background:green;
+        display:inline-block;
+      }
+      .processing{
+        float:left;
+        margin-top:20px;
+        width:175px;
+        text-align:center;
+      }
+    }
+    
+  }
+  .today{
+    width:350px;
+    height:270px;
+    float:left;
+    margin-top:1%;
+    margin-left:2%;
+    #techart{
+      width:350px;
+      height:270px;
+    }
+  }
+  .file{
+    
+  }
+  #timeline{
+    width:100%;
+    height:50px;
+    border:1px solid #eee;
+    float:left;
+    background:#fff;
+    .log {
+      width: 100%;
+      height: 14px;
+      margin-top: 20px;
+      background-color: #ddf;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      .first {
+        position: absolute;
+        left: -1px;
+        margin-top: 13px;
+        height: 10px;
+        width: 33.3%;
+        border-left: 1px solid #aaa;
+      }
+      .second {
+        position: absolute;
+        left: 33.3%;
+        width: 33.3%;
+        margin-top: 13px;
+        height: 10px;
+        border-left: 1px solid #aaa;
+      }
+      .third {
+        position: absolute;
+        right: -1px;
+        margin-top: 13px;
+        height: 10px;
+        width: 33.3%;
+        border-left: 1px solid #aaa;
+        border-right: 1px solid #aaa;
+      }
+    }
+    .container_s{
+      display:flex;
+      font-size:12px;
+      .first_div, .second_div {
+          padding-left: 2px;
+          width: 33.3%;
+          text-align: left;
+          text-indent: 0;
+          vertical-align: bottom;
+      }
+      .third_div, .fouth_div {
+          width: 16.7%;
+      }
+      .third_div{
+        text-align: left;
+      }
+      .fouth_div{
+        text-align:right;
+      }
+    }
+  }
+  .warning{
+    width:100%;
+    float:left;
+    display:none;
+    .intewarning{
+      width:600px;
+      height:300px;
+      overflow:hidden;
+      padding-top:10px;
+      float:left;
+      margin-right:20px;
+      border:1px solid #eee;
+      .box{
+        overflow:auto;
+        padding:10px 0;
+        margin-top:10px;
+        border-top:1px solid #c0c4cc;
+        
+      }
+    }
+    .file{
+      width:750px;
+      height:300px;
+      overflow:hidden;
+      padding-top:10px;
+      float:left;
+      border:1px solid #eee;
+      .box{
+        overflow:auto;
+        padding:10px 0;
+        margin-top:10px;
+        border-top:1px solid #c0c4cc;
+      }
+    }
+  }
+  .fileupload{
+    width:42%;
+    padding:2% 7px;
+    background: #fff;
+    float:left;
+    text-align: center;
+    margin-top:1%;
+    .box{
+      width:65px;
+      height:70px;
+      margin:20px 20px 0 0;
+      display:inline-block;
+      .iconfont{
+        width:65px;
+        height:65px;
+        font-size:48px;
+      }
+      span{
+        font-size:14px;
+      }
+    }
+    .upload-demo{
+      display:inline-block;
+    }
+  }
+  
+}
+
+@keyframes move
+{
+from {width:78%;}
+to {width:79%;}
+}
+

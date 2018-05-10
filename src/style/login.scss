@@ -1,0 +1,98 @@
+.login{
+  background-color: #404040;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  .all-login {
+     position: relative;
+     max-width: 1200px;
+     min-width: 768px;
+     margin: 0 auto;
+     min-height: 640px;
+     height: 100%;
+     overflow: hidden;
+     .header{
+        .lg-logo {
+            height: 110px;
+            padding-bottom: 40px;
+            position: relative;
+            color: #fff;
+            img{
+              position: absolute;
+              bottom: 11px;
+              left: 5px;
+            }
+            .website-banner-name{
+              position: absolute;
+              bottom: 34px;
+              font-size: 30px;
+              left: 111px;
+            }
+        }
+        .lg-logo:after {
+            content: '';
+            position: absolute;
+            height: 1px;
+            width: 100%;
+            background: linear-gradient(to right,rgba(255,255,255,.15),rgba(255,255,255,0));
+            bottom: 0;
+            left: 0;
+        }
+        .choose-lang{
+            color: #fff;
+            width: 150px;
+            position: absolute;
+            right: -52px;
+            top: 85px;
+            .el-dropdown{
+              color: #fff;
+              cursor: pointer;
+              right: 0px;
+            }
+        }
+      }
+     .box{
+        width: 430px;
+        border-radius: 4px;
+        padding-bottom: 60px;
+        background-color: #fff;
+        position: absolute;
+        right: 10px;
+        top: 215px;
+        text-align: center;
+        .login-title{
+          font-size: 22px;
+          color: #333;
+          
+          margin-bottom: 50px;
+        }
+        .el-form{
+          .el-form-item{
+            width: 90%;
+
+          }
+          .submit-btn{
+            margin-top: 30px;
+            margin-left: 12.5%;
+            .el-button{
+              width: 77.5%;
+            }
+          }
+        }
+     }
+     .dec-box{
+        position: absolute;
+        left: 110px;
+        top: 255px;
+        color: #fff;
+        font-size: 18px;
+        .dec{
+          margin-bottom: 20px;
+        }
+     }
+  }
+}

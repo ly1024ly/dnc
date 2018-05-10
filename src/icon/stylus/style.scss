@@ -1,0 +1,164 @@
+@font-face {
+  font-family: 'icon-video';
+  src:  url('../icon/../icon/fonts/icon-video.eot?b6xy45');
+  src:  url('../icon/../icon/fonts/icon-video.eot?b6xy45#iefix') format('embedded-opentype'),
+    url('../icon/../icon/fonts/icon-video.ttf?b6xy45') format('truetype'),
+    url('../icon/fonts/icon-video.woff?b6xy45') format('woff'),
+    url('../icon/fonts/icon-video.svg?b6xy45#icon-video') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-video"], [class*=" icon-video"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-video' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-video:before {
+  content: "\e914";
+}
+
+@font-face {
+  font-family: 'icon-person';
+  src:  url('../icon/fonts/icon-person.eot?q8wfd8');
+  src:  url('../icon/fonts/icon-person.eot?q8wfd8#iefix') format('embedded-opentype'),
+    url('../icon/fonts/icon-person.ttf?q8wfd8') format('truetype'),
+    url('../icon/fonts/icon-person.woff?q8wfd8') format('woff'),
+    url('../icon/fonts/icon-person.svg?q8wfd8#icon-person') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-person"], [class*=" icon-person"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-person' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-person:before {
+  content: "\e971";
+}
+
+@font-face {
+  font-family: 'icon-templet';
+  src:  url('../icon/fonts/icon-templet.eot?ue93uu');
+  src:  url('../icon/fonts/icon-templet.eot?ue93uu#iefix') format('embedded-opentype'),
+    url('../icon/fonts/icon-templet.ttf?ue93uu') format('truetype'),
+    url('../icon/fonts/icon-templet.woff?ue93uu') format('woff'),
+    url('../icon/fonts/icon-templet.svg?ue93uu#icon-templet') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-templet"], [class*=" icon-templet"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-templet' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-templet:before {
+  content: "\e926";
+}
+
+@font-face {
+  font-family: 'icon-service';
+  src:  url('../icon/fonts/icon-service.eot?1dirz0');
+  src:  url('../icon/fonts/icon-service.eot?1dirz0#iefix') format('embedded-opentype'),
+    url('../icon/fonts/icon-service.ttf?1dirz0') format('truetype'),
+    url('../icon/fonts/icon-service.woff?1dirz0') format('woff'),
+    url('../icon/fonts/icon-service.svg?1dirz0#icon-service') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-service"], [class*=" icon-service"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-service' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-service:before {
+  content: "\ead9";
+}
+
+@font-face {
+  font-family: 'icon-exit';
+  src:  url('../icon/fonts/icon-exit.eot?gl6bi3');
+  src:  url('../icon/fonts/icon-exit.eot?gl6bi3#iefix') format('embedded-opentype'),
+    url('../icon/fonts/icon-exit.ttf?gl6bi3') format('truetype'),
+    url('../icon/fonts/icon-exit.woff?gl6bi3') format('woff'),
+    url('../icon/fonts/icon-exit.svg?gl6bi3#icon-exit') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-exit"], [class*=" icon-exit"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icon-exit' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-exit:before {
+  content: "\e9b6";
+}
+
+.icon-video,.icon-person,.icon-service,.icon-templet,.icon-exit{
+    margin-left:4px;
+    font-size:17px;
+    margin-right:7px;
+}
+.icon-service,.icon-templet{
+  margin-right:9px;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+.el-select-dropdown__list{
+  max-height:300px;
+  .el-select-dropdown__item{
+    height:auto;
+    p{
+      width:100%;
+      height:30px;
+      display:block;
+      border-bottom:1px solid #eee;
+    }
+  }
+}

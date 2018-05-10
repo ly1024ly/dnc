@@ -1,0 +1,33 @@
+.allwarning{
+	display: flex;
+	width: 100%;
+	flex-direction:row;
+    flex-wrap: wrap;
+    min-width:450px;
+	.group-box{
+		border: 1px solid rgba(64, 64, 64, 0.6);
+		padding: 40px 20px 10px 20px;
+		position: relative;
+		width: 1526px;
+		display: flex;
+		flex-direction:row;
+    	flex-wrap: wrap;
+    	margin-bottom:40px;
+    	background-color: #fff;
+		.head-name{
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			height: 30px;
+			width: 100%;
+			line-height: 30px;
+			background-color: rgba(64, 64, 64, 0.6);
+			text-align: left;
+			color: #fff;
+			span{
+				padding-left: 10px;
+			}
+		}
+	}
+
+}

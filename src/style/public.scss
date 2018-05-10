@@ -1,0 +1,20 @@
+
+  .header-tool-area .el-form-item {
+    margin-bottom: 0 !important;
+    vertical-align: middle;
+}
+  main.el-main {
+    /* margin-top: 20px; */
+    margin-left: 20px;
+}
+.aside-menu{
+    z-index: 100;
+}
+a{
+ &:link,a:visited,a:hover,&:active{
+   text-decoration:none;
+ } 
+}
+div#app{
+  background-color: rgba(238, 241, 246,.8);
+}

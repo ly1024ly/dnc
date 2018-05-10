@@ -1,0 +1,4 @@
+前端技术vue 框架element ui 单页面应用
+
+1.设备监控
+    设备监控页面头部公用一个select选择组件，写在monitoring.vue层里，连接mqtt获得设备状态在将数据放在allDevice数组里，

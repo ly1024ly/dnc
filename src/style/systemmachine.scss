@@ -1,0 +1,22 @@
+.sym{
+    width:100%;
+    height:100vh;
+    background: #ececec;
+    .head{
+        width:100%;
+        height:80px;
+        color: #333;
+        background:#fff;
+        z-index:100;
+        text-align: center;
+        line-height: 60px;
+        position: fixed;
+        top:0px;
+        left:0px;
+        .logo{
+            width: 60px;
+            float:left;
+            margin-left: 50px;
+        }
+    }
+}
